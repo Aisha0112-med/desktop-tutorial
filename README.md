@@ -57,3 +57,36 @@ for sen in sentence:
     if sen not in vowel:
         continue
     print(sen)
+
+
+class 5- week 3
+#assignment 1- Write a function that prints the last digit of a number.
+Prototype: def print_last_digit(number):
+Returns the value of the last digit
+
+
+def print_last_digit(number):
+    last_digit = abs(number) % 10
+    print(last_digit)
+    return last_digit
+print_last_digit(567)
+
+#assignment 2 - Write a function that prints the numbers from 1 to 100 separated by a space.
+For multiples of three print Fizz instead of the number and for multiples of five print Buzz.
+For numbers which are multiples of both three and five print FizzBuzz.
+Prototype: def fizzbuzz():
+Each element should be followed by a space
+
+def fizzbuzz():
+    # Loop through numbers from 1 to 100
+    for number in range(1, 101):
+        if number % 3 == 0 and number % 5 == 0:
+            print("FizzBuzz", end=" ")
+        elif number % 3 == 0:
+                  print("Fizz", end=" ")
+        elif number % 5 == 0:
+            print("Buzz", end=" ")
+        else:
+            print(number, end=" ")
+assignment 3- 
+i am stuck
